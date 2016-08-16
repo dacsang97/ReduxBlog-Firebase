@@ -1,2 +1,2 @@
-var Hello = require('./App');
-document.getElementById('root').innerText = Hello;
+import {hello} from './App';
+document.getElementById('root').innerText = hello;

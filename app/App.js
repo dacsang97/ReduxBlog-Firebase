@@ -1,2 +1,1 @@
-var hello = "Welcome to my blog";
-module.exports = hello;
+export const hello = "Welcome to my blog";
