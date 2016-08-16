@@ -8,6 +8,7 @@ module.exports = {
 	devServer : {
 		contentBase : './public',
 		color : true,
-		inline : true
+		inline : true,
+		historyApiFallback : true
 	}
 }
