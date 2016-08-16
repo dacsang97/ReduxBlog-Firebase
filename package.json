@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "webpack"
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "redux": "^3.5.2"
   },
   "devDependencies": {
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
