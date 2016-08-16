@@ -13,11 +13,8 @@ module.exports = {
 	},
 	module : {
 		loaders : [
-			{
-				test : /\.js$/,
-				loader : 'babel',
-				exclude : /node_module/
-			}
+			{test : /\.js$/, loader : 'babel', exclude : /node_module/},
+			{test : /\.css$/, loader : 'style!css?modules'}
 		]
 	}
 }
