@@ -1,1 +1,1 @@
-export const hello = "Welcome to my blog";
+export const hello = "Thì chả sao cả.";
