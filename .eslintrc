@@ -13,6 +13,7 @@
       "rules" : {
         "semi" : [2, "never"],
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "arrow-body-style": ["error", "always"],
       },
       "plugins" : [
         "babel",

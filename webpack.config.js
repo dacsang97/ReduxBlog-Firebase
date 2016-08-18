@@ -25,7 +25,7 @@ var config = {
 	}
 }
 
-if (process.args.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
 	config.devtool = false;
 	config.plugins = [
 		new webpack.optimize.OccurenceOrderPlugin(),
